@@ -94,8 +94,8 @@ inline int run_all(int argc, char** argv) {
 
 #define CHECK_EQ(a, b)                                                                     \
   do {                                                                                     \
-    const auto& _va = (a);                                                                 \
-    const auto& _vb = (b);                                                                 \
+    const auto _va = (a);                                                                  \
+    const auto _vb = (b);                                                                  \
     if (!(_va == _vb)) {                                                                   \
       std::ostringstream _os;                                                              \
       _os << "CHECK_EQ(" #a ", " #b ") got " << testfw::show(_va) << " vs " << testfw::show(_vb);                   \
