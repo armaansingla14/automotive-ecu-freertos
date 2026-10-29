@@ -1,0 +1,10 @@
+build/
+build-*/
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.o
+*.a
+results/trace_*.csv
