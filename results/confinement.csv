@@ -1,0 +1,3 @@
+scenario,faulty_node_bus_off,error_frames,delivery_others_pct,delivery_faulty_pct,p99_others_ms
+healthy,0,0,100,100,2.511
+faulty_transceiver,202,6464,100,0,3.921

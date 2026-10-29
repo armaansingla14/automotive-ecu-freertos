@@ -1,0 +1,5 @@
+mode,faults,recovered,detect_mean_ms,detect_max_ms,recover_mean_ms,recover_p95_ms,recover_max_ms,delivery_pct,resets,false_resets
+off,36,0,0,0,0,0,0,94.1564,0,0
+unconditional,36,0,0,0,0,0,0,94.1564,0,0
+supervised,36,36,235.788,374.01,303.827,435.559,445.381,99.9358,36,0
+supervised_fast,36,36,154.121,294.01,222.162,355.559,365.091,99.9546,36,0
